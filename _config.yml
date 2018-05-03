@@ -43,6 +43,7 @@ social-share-items: [ ]
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
+about-color: 'grey'
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'

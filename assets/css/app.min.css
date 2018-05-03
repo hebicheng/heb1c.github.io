@@ -366,7 +366,7 @@ a {
 .author-card .sns-links li .icon-medium:hover {
 	color:#0be370
 }
-.article-item .post-meta .post-tag,.tags-card .tag,.tags-content .tag {
+.article-item .post-meta .post-tag,.tags-card .tag,.tags-content .tag,.about-content .tag  {
 	display:inline-block;
 	width:auto;
 	height:22px;
@@ -894,7 +894,7 @@ a {
 	margin-bottom:24px;
 	cursor:default
 }
-.tags-list li .about {
+.about-list li .about {
 	box-shadow:0 0 .3px #bfc2c6;
 	margin-bottom:12px
 }
@@ -912,13 +912,8 @@ a {
 	text-align:center;
 	margin-bottom:20px
 }
-.about-list li .about-link {
-	display:block;
-	font-size:15px;
-	color:#333;
-	text-align:center;
-    margin-bottom:20px;
-    
+.about-list li .about-link {	
+	text-align:center; 
 }
 .about-list li .about-post {
 	display:block;

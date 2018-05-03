@@ -5,7 +5,7 @@ layout: default
 
 {% include header.html %}
 
-<div class="g-banner about-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+<div class="g-banner about-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.about-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>About</h2>
 </div>
 
@@ -21,7 +21,8 @@ layout: default
         
         <li>
             <h3><span class="about-name" >友情链接</span></h3>
-            <a href="http://acm.sicnu.edu.cn" class="tag">sicnu oj</a>
+            <span class="about-link"><a href="http://acm.sicnu.edu.cn" class="tag">sicnu oj</a></span>
+
         </li>
     </ul>
 </main>
