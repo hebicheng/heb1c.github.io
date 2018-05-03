@@ -383,10 +383,10 @@ a {
 	margin-right:2px;
 	transition:.2s
 }
-.article-item .post-meta .post-tag:last-child,.tags-card .tag:last-child,.tags-content .tag:last-child {
+.article-item .post-meta .post-tag:last-child,.tags-card .tag:last-child,.tags-content .tag:last-child,.about-content .link:last-child {
 	margin-right:0
 }
-.article-item .post-meta .post-tag:hover,.tags-card .tag:hover,.tags-content .tag:hover {
+.article-item .post-meta .post-tag:hover,.tags-card .tag:hover,.tags-content .tag:hover,.about-content .link:hover {
 	color:#83888f
 }
 .g-sidebar-wrapper {
@@ -1175,6 +1175,9 @@ a {
 	margin-top:0
 }
 .article-list,.tags-content {
+	width:100%
+}
+.article-list,.about-content {
 	width:100%
 }
 .tags-content {
