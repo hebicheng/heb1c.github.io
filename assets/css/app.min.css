@@ -1002,7 +1002,7 @@ a {
 .night-mode .token.keyword {
 	color:#61bdcf
 }
-@media screen and (min-width:1920px) {
+@media screen and (min-width:980px) {
 	.home-banner {
 	height:60px
 }
