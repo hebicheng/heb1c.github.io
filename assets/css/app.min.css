@@ -366,7 +366,7 @@ a {
 .author-card .sns-links li .icon-medium:hover {
 	color:#0be370
 }
-.article-item .post-meta .post-tag,.tags-card .tag,.tags-content .tag,.about-content .tag  {
+.article-item .post-meta .post-tag,.tags-card .tag,.tags-content .tag,.about-content .link  {
 	display:inline-block;
 	width:auto;
 	height:22px;
@@ -913,15 +913,9 @@ a {
 	margin-bottom:20px
 }
 .about-list li .about-link {	
-	text-align:center; 
-}
-.about-list li .about-post {
-	display:block;
-	font-size:16px;
-	color:#666;
 	text-align:center;
-	margin:16px auto
 }
+
 .about-list li .about-post:hover {
 	color:#000
 }
@@ -1190,6 +1184,15 @@ a {
 	height:300px
 }
 .tags-list {
+	padding:0 0 24px
+}
+.about-content {
+	margin-top:0
+}
+.about-banner {
+	height:300px
+}
+.about-list {
 	padding:0 0 24px
 }
 .g-footer {
