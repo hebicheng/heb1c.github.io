@@ -10,17 +10,18 @@ baseurl: ''
 # Navigation links
 nav:
   home: '/'
-  tags: '/tags.html'
+  about: '/about.html'
+
 
 # Footer
 footer:
-  since: 2017
+  since: 2012018
 
 # Author 配置博主信息
 author: 'Heb1c'
 nickname: '壁壁~'
 bio: 'Much effort, much prosperity'
-avatar: '/assets/img/avatar.png'
+avatar: '/assets/img/avatar.jpg'
 
 # Search
 search: false
