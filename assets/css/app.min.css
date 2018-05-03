@@ -866,6 +866,69 @@ a {
 .tags-list li .tag-post:hover {
 	color:#000
 }
+.about-banner {
+	height:300px;
+	text-align:center
+}
+.about-banner h2 {
+	font-size:36px;
+	line-height:300px
+}
+.about-content {
+	width:695px;
+	margin:-100px auto 0
+}
+.about-list {
+	padding:40px 0
+}
+.about-list li {
+	padding:30px 20px;
+	background-color:#fff;
+	border:1px solid #e7eaf1;
+	border-radius:3px;
+	box-sizing:border-box;
+	box-shadow:0 1px 3px rgba(0,37,55,.06);
+	margin-bottom:12px
+}
+.about-list li:first-child {
+	margin-bottom:24px;
+	cursor:default
+}
+.tags-list li .about {
+	box-shadow:0 0 .3px #bfc2c6;
+	margin-bottom:12px
+}
+.about-list li .about-name {
+	display:block;
+	font-size:20px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px
+}
+.about-list li .about-info {
+	display:block;
+	font-size:15px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px
+}
+.about-list li .about-link {
+	display:block;
+	font-size:15px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px
+}
+.about-list li .about-post {
+	display:block;
+	font-size:16px;
+	color:#666;
+	text-align:center;
+	margin:16px auto
+}
+.about-list li .about-post:hover {
+	color:#000
+}
 .np-banner {
 	position:fixed;
 	top:0;
