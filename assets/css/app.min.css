@@ -914,6 +914,7 @@ a {
 }
 .about-list li .about-link {	
 	text-align:center;
+	margin-top: 10px;
 }
 
 .about-list li .about-post:hover {
