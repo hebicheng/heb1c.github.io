@@ -28,7 +28,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 > 很多人遇到过这样类似的情况，document.write方法向网页写内容的时候，会把文档中的原来的内容清空。那么什么时候会被清空什么时候又不会被清空呢？我们来看下面几个例子。
 
 * 例一
-```html
+```HTML
 <html>      
 <head>      
 <script>  
@@ -50,7 +50,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 我们再看下一个例子。
 * 例二
-```html
+```HTML
 <html>      
 <head>      
 <script>  
@@ -70,7 +70,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 这个例子中，原来的文档内容"**content 1**"并没有被清空，因为当前文档流是由浏览器所创建，并且document.wirte方法身处其中，也就是执行此方法的时候文档流并没有被关闭，这个时候不会调用document.open方法创建新文档流，所以也就不会被覆盖。
 
 * 例三
-```html
+```HTML
 <html>      
 <head>      
 <script>  
@@ -90,7 +90,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 这个例子中，发现原来的文档内容"**content 1**"还是没有被清空，我们使用document.close关闭了文档流，为什么还是不能覆盖原来的内容呢，因为文档流是由浏览器创建，无权限手动关闭，document.close方法只能够关闭由document.open方法创建的文档流。
 
 * 例四
-```html
+```HTML
 <html>      
 <head>      
 <script>  
