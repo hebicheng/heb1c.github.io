@@ -91,6 +91,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
     content 2
     content 1
+
 这个例子中，发现原来的文档内容"**content 1**"还是没有被清空，我们使用document.close关闭了文档流，为什么还是不能覆盖原来的内容呢，因为文档流是由浏览器创建，无权限手动关闭，document.close方法只能够关闭由document.open方法创建的文档流。
 
 * 例四
@@ -111,10 +112,13 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 </body>  
 </html>
 ```
+
 显示：  
 
-    content 2
-这个例子中，便能达到我们预期的效果，调用document.close()后，原文档内容被清空，显示新的内容。
+    content 2  
+
+这个例子中，便能达到我们预期的效果，调用document.close()后，原文档内容被清空，显示新的内容。  
+
 ## 参考资料
 [HTML DOM write() 方法](http://www.w3school.com.cn/jsref/met_doc_write.asp)  
 [http://www.softwhy.com/article-8326-1.html](http://www.softwhy.com/article-8326-1.html)
