@@ -16,6 +16,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 ## 例：
 ```HTML
+
 <html>
 <body>
 <script type="text/javascript">
@@ -29,6 +30,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 * 例一
 ```HTML
+
 <html>      
 <head>      
 <script>  
@@ -51,6 +53,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 我们再看下一个例子。
 * 例二
 ```HTML
+
 <html>      
 <head>      
 <script>  
@@ -71,6 +74,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 * 例三
 ```HTML
+
 <html>      
 <head>      
 <script>  
@@ -91,6 +95,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 * 例四
 ```HTML
+
 <html>      
 <head>      
 <script>  
