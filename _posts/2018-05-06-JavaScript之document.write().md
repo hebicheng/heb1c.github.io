@@ -11,36 +11,36 @@ tags: js
 document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。  
 可列出多个参数(exp1,exp2,exp3,...) ，它们将按顺序被追加到文档中。
 > ## 说明
->  虽然根据 DOM 标准，该方法只接受单个字符串作为参数。不过根据经验，write() 可接受任何多个参数。  
-> 我们通常按照两种的方式使用 write() 方法：一是在使用该方在文档中输出 HTML，另一种是在调用该方法的的窗口之外的窗口、框架中产生新文档。在第二种情况中，请务必使用 close() 方法来关闭文档。
+>  虽然根据 DOM 标准，该方法只接受单个字符串作为参数。不过根据经验，write() 可接受任何多个参数。
+>我们通常按照两种的方式使用 write() 方法：一是在使用该方在文档中输出 HTML，另一种是在调用该方法的的窗口之外的窗口、框架中产生新文档。在第二种情况中，请务必使用 close() 方法来关闭文档。
 
 ## 例：
 ```HTML
-&lt;html&gt;
-&lt;body&gt;
-&lt;script type="text/javascript"&gt;
+<html>
+<body>
+<script type="text/javascript">
     document.write("Hello World!");
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</body>
+</html>
 ```
 # document.write()清空原内容
 > 很多人遇到过这样类似的情况，document.write方法向网页写内容的时候，会把文档中的原来的内容清空。那么什么时候会被清空什么时候又不会被清空呢？我们来看下面几个例子。
 
 * 例一
 ```HTML
-&lt;html&gt;      
-&lt;head&gt;      
-&lt;script&gt;  
+<html>      
+<head>      
+<script>  
     window.onload=function(){
         document.write("content 2");
     }
-&lt;/script&gt; 
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;div&gt;content 1&lt;/div&gt; 
-&lt;/body&gt;  
-&lt;/html&gt;
+</script> 
+</head>  
+<body>  
+<div>content 1</div> 
+</body>  
+</html>
 ```
 显示：  
 
@@ -51,16 +51,16 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 我们再看下一个例子。
 * 例二
 ```HTML
-&lt;html&gt;      
-&lt;head&gt;      
-&lt;script&gt;  
+<html>      
+<head>      
+<script>  
     document.write("content 2");
-&lt;/script&gt; 
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;div&gt;content 1&lt;/div&gt; 
-&lt;/body&gt;  
-&lt;/html&gt;
+</script> 
+</head>  
+<body>  
+<div>content 1</div> 
+</body>  
+</html>
 ```
 显示：  
 
@@ -71,17 +71,17 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 
 * 例三
 ```HTML
-&lt;html&gt;      
-&lt;head&gt;      
-&lt;script&gt;  
+<html>      
+<head>      
+<script>  
     document.close(); 
     document.write("content 2");
-&lt;/script&gt; 
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;div&gt;content 1&lt;/div&gt; 
-&lt;/body&gt;  
-&lt;/html&gt;
+</script> 
+</head>  
+<body>  
+<div>content 1</div> 
+</body>  
+</html>
 ```
 显示：  
 
@@ -90,21 +90,21 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 这个例子中，发现原来的文档内容"**content 1**"还是没有被清空，我们使用document.close关闭了文档流，为什么还是不能覆盖原来的内容呢，因为文档流是由浏览器创建，无权限手动关闭，document.close方法只能够关闭由document.open方法创建的文档流。
 
 * 例四
-```html
-&lt;html&gt;      
-&lt;head&gt;      
-&lt;script&gt;  
+```HTML
+<html>      
+<head>      
+<script>  
     function func(){
         document.write("content 1");
         document.close();
         document.write("content 2");
     }
-&lt;/script&gt; 
-&lt;/head&gt;  
-&lt;body&gt;  
-&lt;button onclick="func()"&gt;Try it&lt;/button&gt;
-&lt;/body&gt;  
-&lt;/html&gt;
+</script> 
+</head>  
+<body>  
+<button onclick="func()">Try it</button>
+</body>  
+</html>
 ```
 显示：  
 
