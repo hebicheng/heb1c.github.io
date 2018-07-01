@@ -11,7 +11,7 @@ tags: linux ssh
 
 我们在 `.ssh` 目录下新建一个 `config` 文件， 内容如下：
 
-```
+```python
 Host server1
 HostName server1.com
 PreferredAuthentications publickey
