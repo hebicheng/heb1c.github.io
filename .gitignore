@@ -1,6 +1,8 @@
 .DS_Store
 */.DS_Store
-
+package-lock.json
+package.json
+[TYPECHECa]
 node_modules
 
 _site
