@@ -7,6 +7,8 @@ cover: ''
 tags: js
 ---
 
+> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
+
 # 定义和用法
 document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。  
 可列出多个参数(exp1,exp2,exp3,...) ，它们将按顺序被追加到文档中。

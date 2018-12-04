@@ -7,6 +7,8 @@ cover: ''
 tags: linux ssh
 ---
 
+> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
+
 # ssh config 管理多个会话
 
 我们在 `.ssh` 目录下新建一个 `config` 文件， 内容如下：

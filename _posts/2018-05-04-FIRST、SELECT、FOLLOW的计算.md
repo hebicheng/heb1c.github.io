@@ -7,7 +7,8 @@ cover: ''
 tags: 编译原理
 ---
 
-> LL(1)文法判断之first、select、follow集合的计算
+> LL(1)文法判断之first、select、follow集合的计算  
+> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
 
 # FIRST集合
 * 若$X ∈ V_N$，则$FIRST(X)＝{X}$。(简单讲，终结符的FIRST集就是它本身)
