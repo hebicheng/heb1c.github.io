@@ -6,8 +6,7 @@ author: heb1c
 cover: ''
 tags: js
 ---
-
-> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
+ 
 
 # 定义和用法
 document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。  
@@ -124,3 +123,7 @@ document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。
 ## 参考资料
 [HTML DOM write() 方法](http://www.w3school.com.cn/jsref/met_doc_write.asp)  
 [http://www.softwhy.com/article-8326-1.html](http://www.softwhy.com/article-8326-1.html)
+
+
+> javaScript之document.write()  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io) 

@@ -8,7 +8,7 @@ tags: markdown
 ---
 
 > markdown之有些坑要踩过之后才知道..  
-> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
+
 
 
 在写一篇post的过程中，需要在内容里面插入一些html码，如下:
@@ -35,3 +35,6 @@ tags: markdown
 > 生命诚可贵，能加空行就加空行！
 
 还有一些其他人总结过的坑mark一下 [[一踩一个准之Markdown](https://www.jianshu.com/p/7c4637c72900)]
+
+> markdown遇到的坑  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  

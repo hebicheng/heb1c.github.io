@@ -8,7 +8,7 @@ tags: 编译原理
 ---
 
 > LL(1)文法判断之first、select、follow集合的计算  
-> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
+
 
 # FIRST集合
 * 若$X ∈ V_N$，则$FIRST(X)＝{X}$。(简单讲，终结符的FIRST集就是它本身)
@@ -32,4 +32,7 @@ tags: 编译原理
 # SELECT集合
 * 给定上下文无关文法的产生式$A→α$,若$α$不能推导出$ε$,则$SELECT(A→α)=FIRST(α)$.
 
-* 如果$α$能推导出$ε$,则：$SELECT(A→α)=(FIRST(α) –{ε})∪ FOLLOW(A)$.
+* 如果$α$能推导出$ε$,则：$SELECT(A→α)=(FIRST(α) –{ε})∪ FOLLOW(A)$.  
+
+> first、select、follow集合的计算  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
