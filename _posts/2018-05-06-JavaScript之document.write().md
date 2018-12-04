@@ -7,7 +7,7 @@ cover: ''
 tags: js
 ---
 
-> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
 
 # 定义和用法
 document.write() 方法可向文档写入 HTML 表达式或 JavaScript 代码。  

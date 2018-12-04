@@ -8,7 +8,7 @@ tags: markdown
 ---
 
 > markdown之有些坑要踩过之后才知道..  
-> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
 
 
 在写一篇post的过程中，需要在内容里面插入一些html码，如下:

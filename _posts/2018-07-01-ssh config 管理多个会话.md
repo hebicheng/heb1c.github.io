@@ -7,7 +7,7 @@ cover: ''
 tags: linux ssh
 ---
 
-> 原创作品，转载请注明来源 [heb1cheng.hithub.io](https://heb1cheng.hithub.io)  
+> 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
 
 # ssh config 管理多个会话
 
