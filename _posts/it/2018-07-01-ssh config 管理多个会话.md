@@ -4,7 +4,7 @@ title: 'ssh config 管理多个会话'
 date: 2018-07-01
 author: hebicheng
 cover: ''
-tags: linux ssh
+tags: [linux, ssh]
 ---
 
 
