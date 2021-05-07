@@ -34,5 +34,5 @@ User server2
 `IdentityFile`: 私钥文件位置  
 `User`: 要登录的用户名
 
-> ssh config 管理多个会话  
+ 
 > 原创作品，转载请注明来源 [https://hebicheng.github.io](https://hebicheng.github.io)  
