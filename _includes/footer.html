@@ -110,6 +110,20 @@
     })
 </script>
 
+<script>
+(function($){
+    setInterval(() => {
+        $.each($('iframe'), (arr,x) => {
+            let src = $(x).attr('src');
+            if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
+                $(x).remove();
+            }
+        });
+    }, 300);
+})(jQuery);
+</script>
+
+
 
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
