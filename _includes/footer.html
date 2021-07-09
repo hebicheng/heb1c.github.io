@@ -115,7 +115,7 @@
     setInterval(() => {
         $.each($('iframe'), (arr,x) => {
             let src = $(x).attr('src');
-            if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
+            if (!(src && src.indexOf("hebicheng") != -1)) {
                 $(x).remove();
             }
         });
